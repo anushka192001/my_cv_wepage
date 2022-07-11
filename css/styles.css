@@ -1,0 +1,21 @@
+
+@media (max-width: 500px) {
+  #contact .container {
+    width:95% !important;
+  }
+}
+
+
+@keyframes skills {
+  from {width:0%;}
+  to {width:70%;}
+}
+
+#skills .progress-bar {
+    animation-name: skills;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+   }
+   
+
+   
